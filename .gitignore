@@ -16,6 +16,7 @@
 /lib
 /bin
 .firebase
+.firebaserc
 
 # misc
 .DS_Store
