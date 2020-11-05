@@ -2,8 +2,9 @@
 
 # dependencies
 /node_modules
-/lib
-/bin
+<<<<<<< HEAD
+=======
+>>>>>>> c0b9bb88648055a8710fcc80544e58dfbbb2a694
 /.pnp
 .pnp.js
 
@@ -12,6 +13,8 @@
 
 # production
 /build
+/lib
+/bin
 
 # misc
 .DS_Store
