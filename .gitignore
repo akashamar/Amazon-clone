@@ -2,7 +2,7 @@
 
 # dependencies
 /node_modules
-/lib/node_modules/serve
+/lib
 /.pnp
 .pnp.js
 
