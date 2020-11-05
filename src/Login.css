@@ -1,0 +1,105 @@
+.login{
+	background: white;
+	min-height: 650px;
+	width: 100%;
+	height: 100%;
+}
+
+.login_card{
+	width: 350px;
+	display: flex;
+	flex-direction: column;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.login_details{
+	width: 350px;
+	margin: 5px;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	border-radius: 5px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.email > input{
+	border: 1px solid rgba(0, 0, 0, 0.3) !important;
+	border-radius: 3px;
+	width: 300px;
+	outline-width: 0;
+	text-decoration: none;
+	height: 25px;
+	border: 1px solid black;
+}
+
+.password > input{
+	border: 1px solid rgba(0, 0, 0, 0.3) !important;
+	border-radius: 3px;
+	width: 300px;
+	outline-width: 0;
+	text-decoration: none;
+	height: 25px;
+	border: 1px solid black;
+}
+
+.login_logo {
+	width: 200px;
+	object-fit: contain;
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 10px;
+	padding-bottom: 20px
+}
+
+.login_button > button {
+	width: 300px;
+	border-radius: 3px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.login_heading{
+	margin-top: 15px;
+}
+
+.login_heading > h2{
+    font-weight: 500;
+}
+
+.email{
+	margin-top: 15px;
+}
+
+.email > h3{
+	font-size: 15px;
+	font-weight: 500;
+}
+
+.password > h3{
+	font-size: 15px;
+	font-weight: 500;
+}
+
+.password{
+	margin-top: 15px;
+}
+
+.create_account{
+	width: 360px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.create_account > button{
+    margin: 15px 0px;
+	width: 300px;
+	border-radius: 3px;
+	margin-top: 15px;
+}
+
+button::-moz-focus-inner {
+  border: 0;
+}
